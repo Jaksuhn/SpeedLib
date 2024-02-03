@@ -1,5 +1,3 @@
-using System;
-
 namespace SpeedLib.SpeedLib.Helpers;
 
 public static unsafe class Addons

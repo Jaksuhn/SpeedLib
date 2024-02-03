@@ -1,6 +1,5 @@
 using Dalamud;
 using ImGuiNET;
-using System;
 using System.Numerics;
 using System.Runtime.InteropServices;
 
