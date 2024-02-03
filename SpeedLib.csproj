@@ -13,6 +13,7 @@
         <NoWarn>CS1591</NoWarn>
         <EnableWindowsTargeting>true</EnableWindowsTargeting>
         <UseWindowsForms>true</UseWindowsForms>
+        <Platforms>AnyCPU;x64</Platforms>
     </PropertyGroup>
 
     <PropertyGroup>
