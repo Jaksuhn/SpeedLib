@@ -1,5 +1,6 @@
 ﻿using Lumina.Excel.GeneratedSheets;
 using Lumina.Text;
+using SpeedLib.SpeedLib.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;

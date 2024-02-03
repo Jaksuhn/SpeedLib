@@ -52,6 +52,7 @@ namespace SpeedLib.SpeedLib.Extensions
             return -1;
         }
 
+#nullable enable
         // Find the first object fulfilling predicate's criteria in the given list, if one exists.
         // Returns true if an object is found, false otherwise.
         public static bool FindFirst<T>(this IEnumerable<T> array, Predicate<T> predicate, [NotNullWhen(true)] out T? result)
@@ -85,5 +86,6 @@ namespace SpeedLib.SpeedLib.Extensions
             result = default;
             return false;
         }
+#nullable disable
     }
 }
